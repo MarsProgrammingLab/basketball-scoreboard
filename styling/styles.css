@@ -1,0 +1,56 @@
+body {
+    background-color: #FF6347;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+}
+
+h3 {
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 100px;
+    margin-left: 400px;
+    margin-right: 400px;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: #483D8B;
+}
+
+#home-score,
+#guest-score {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bolder;
+    font-size: 50px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: black;
+    color: red;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+button {
+    text-align: center;
+    color: white;
+    background-color: #483D8B;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+button:hover {
+    background: #FF6347;
+    color: white;
+}
